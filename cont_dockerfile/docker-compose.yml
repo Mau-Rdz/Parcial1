@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    webserver:
+        build: .
+        container_name: webserver
+        volumes: 
+            - ./app:/var/www/html
+        ports:
+            - 83:80
+
+
+
+
+#Subirlo a la nube con docker-compose up

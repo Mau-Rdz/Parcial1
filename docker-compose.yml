@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    servidorbd:
+        image: mariadb:10.7.1
+        volumes:
+            - ./db:/var/lib/mysql
+            - ./db_config:/etc/mysql/conf.d
+        environment:
+            -  MYSQL_ROOT_PASSWORD=payasosCalientes98
+        ports:
+            - 3333:3306
+
