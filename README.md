@@ -6,3 +6,4 @@ CONFIGURACIONES INICIALES:
   GETTING STARTED:
   
     Open a terminal, on the route folder then run the command 'docker-compose up', once it's up go to the folder cont_dockerfile and run the same command. After that go to the folder cont_hub and run the command 'docker-compose up' one more time. Once all that it's up and running you will be able to use them.
+
